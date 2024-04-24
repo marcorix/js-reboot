@@ -1,0 +1,57 @@
+
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+.shape-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+  background-color: lightgray;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.rectangle {
+  height: 150px;
+  width: 100px;
+  background-color: lightgreen;
+}
+
+
+.color-box {
+  background-color: #3c3c3c;
+  color: white;
+}
+
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 30px;
+}
+
+.color-list a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.color-list a:hover {
+  color: white;
+}
