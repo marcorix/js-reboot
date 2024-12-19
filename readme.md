@@ -6,10 +6,12 @@
 # Step 2
 1. Create a Javascript file reboot.js and link it to the index.html
 2. Define a function #displayColors with one parameter => Array
-3. Call the function passing an array of strings as argument like this: ["purple", "cyan", "sandybrown", "aquamarine"]; The function should print in the console all the colors.
+3. Call the function passing an array of strings as argument like this: ["purple", "cyan", "sandybrown", "aquamarine"];
+  The function should print in the console all the colors.
 
 # Step 3
-1. Create a new div.colors-box and a ul.color-list. Display all the colors in the <ul></ul> using the function #displayColors
+1. Create a new div.color-box and a ul.color-list.
+  Display all the colors in the <ul></ul> using the function #displayColors
 
 # Step 4
 1. Hide the color-box using a bootstrap class(no need to use JS, just add the class manually in the html)

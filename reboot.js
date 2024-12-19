@@ -1,9 +1,9 @@
-console.log("Hello")
-const colorsNames = ["purple", "cyan", "sandybrown", "aquamarine"];
+const colorNames = ["purple", "cyan", "sandybrown", "aquamarine"];
 const ul = document.querySelector('.color-list')
-const colorBox = document.querySelector('.colors-box')
+const colorBox = document.querySelector('.color-box')
 const btn = document.getElementById('blu-btn')
 const shapes = document.querySelectorAll(".shape-box *");
+
 
 const displayColors = (colors) => {
   colors.forEach(color => {
@@ -11,10 +11,9 @@ const displayColors = (colors) => {
   });
 }
 
-displayColors(colorsNames)
+displayColors(colorNames)
+
 const links = document.querySelectorAll("a");
-
-
 links.forEach(link => {
   link.addEventListener('click', (e) => {
     e.preventDefault()
