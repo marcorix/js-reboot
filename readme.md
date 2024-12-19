@@ -11,7 +11,7 @@
 
 # Step 3
 1. Create a new div.color-box and a ul.color-list.
-  Display all the colors in the <ul></ul> using the function #displayColors
+  Display all the colors in the ul using the function #displayColors
 
 # Step 4
 1. Hide the color-box using a bootstrap class(no need to use JS, just add the class manually in the html)
